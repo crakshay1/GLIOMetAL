@@ -1,8 +1,9 @@
-# RNA-seq Preprocessing
+# Preprocessing
 
-Quality control, filtering, normalization and descriptive statistics of bulk RNA-seq data (Salmon quantification)
 
+**Quality control, filtering, normalization and descriptive statistics of bulk RNA-seq data (Salmon quantification)**  
 *Digital Genomics — Université Paris-Saclay*
+
 -----------------------------------------------------
 
 This pipeline prepares an RNA-seq dataset for downstream differential analysis. It chains Python modules (metadata, integrity and quantification checks) and R scripts (filtering, normalization, descriptive statistics) from a single entry point, `preprocess.py`. The experimental groups are defined by the `TP53_status` variable (two groups, 15 samples each, 30 samples in total).
