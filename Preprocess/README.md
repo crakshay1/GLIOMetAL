@@ -78,7 +78,7 @@ Rscript Desc.r <NORMALIZED_DIR> <OUTPUT_DIR>
 
 ```
 .
-├── preprocess.py                  	# Entry point
+├── preprocess.py                   # Entry point
 ├── Metadata.py                     # Metadata QC
 ├── Integrity.py                    # Matrix and Salmon integrity checks
 ├── Quantification.py               # Quantification QC
